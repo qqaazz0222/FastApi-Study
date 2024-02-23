@@ -102,7 +102,7 @@ $ uvicorn server:app --reload --host=0.0.0.0 --port=5050
 
 <aside>
 🔗 [tiangolo/full-stack-fastapi-postgresql](https://github.com/tiangolo/full-stack-fastapi-postgresql/tree/master/src/backend/app/app)
-</aside>
+</aside><br/>
 
 <aside>
 root<br/>
