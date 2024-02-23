@@ -1,12 +1,13 @@
 # FastAPI 공부
 
-![Untitled](Assets/Untitled.png)
+![FastAPI](readmeAssets/Untitled.png)
 
 <aside>
-🔗 [공식 홈페이지](https://fastapi.tiangolo.com/ko/) | [공식 문서](https://fastapi.tiangolo.com) | [소스 코드](https://github.com/tiangolo/fastapi)
-
+🔗 [공식 홈페이지](https://fastapi.tiangolo.com/ko/)<br/>
+🔗 [공식 문서](https://fastapi.tiangolo.com)<br/>
+🔗 [소스 코드](https://github.com/tiangolo/fastapi)
 </aside>
-
+<br/>
 > FastAPI는 현대적이고, 빠르며(고성능), 파이썬 표준 타입 힌트에 기초한 Python3.8+의 API를 빌드하기 위한 웹 프레임워크입니다.
 
 # Fast API의 주요 특징
@@ -81,7 +82,7 @@ $ uvicorn server:app --reload --host=0.0.0.0 --port=5050
 
 -   GET /
 
-![Untitled](Assets/Untitled%201.png)
+![Untitled](readmeAssets/Untitled%201.png)
 
 # 5. API 문서 보기
 
@@ -89,10 +90,29 @@ $ uvicorn server:app --reload --host=0.0.0.0 --port=5050
 
 -   GET /docs (http://localhost:5050/docs)
 
-![Untitled](Assets/Untitled%202.png)
+![Untitled](readmeAssets/Untitled%202.png)
 
 ## 5-2. ReDoc API 문서 보기
 
 -   GET /redoc (http://localhost:5050/redoc)
 
-![Untitled](Assets/Untitled%203.png)
+![Untitled](readmeAssets/Untitled%203.png)
+
+# 6. 파일 구조
+
+<aside>
+🔗 [tiangolo/full-stack-fastapi-postgresql](https://github.com/tiangolo/full-stack-fastapi-postgresql/tree/master/src/backend/app/app)
+</aside>
+
+<aside>
+root<br/>
+┠ api<br/>
+┠ core<br/>
+┠ crud<br/>
+┠ db<br/>
+┠ models<br/>
+┠ schemas<br/>
+┠ **init**.py<br/>
+┠ server.py<br/>
+┖ tests<br/>
+</aside>
